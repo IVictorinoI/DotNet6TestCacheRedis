@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet6TestCacheRedis.Api", "DotNet6TestCacheRedis.Api\DotNet6TestCacheRedis.Api.csproj", "{B80EF673-739A-43C6-9449-FD9DC2CB8413}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet6TestCacheRedis.Repository", "DotNet6TestCacheRedis.Repository\DotNet6TestCacheRedis.Repository.csproj", "{1307A3CD-5C43-45DF-8476-DCE8F6E25BB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A66DDC9-58C5-4951-9014-2179555AFDAF}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet6TestCacheRedis.Application", "DotNet6TestCacheRedis.Application\DotNet6TestCacheRedis.Application.csproj", "{999F701C-61EF-40F6-BDB8-48DB4E02CD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet6TestCacheRedis.Domain", "DotNet6TestCacheRedis.Domain\DotNet6TestCacheRedis.Domain.csproj", "{99BDDF1D-D382-465A-B0EF-E99EE6FA18DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B80EF673-739A-43C6-9449-FD9DC2CB8413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80EF673-739A-43C6-9449-FD9DC2CB8413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80EF673-739A-43C6-9449-FD9DC2CB8413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80EF673-739A-43C6-9449-FD9DC2CB8413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1307A3CD-5C43-45DF-8476-DCE8F6E25BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1307A3CD-5C43-45DF-8476-DCE8F6E25BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1307A3CD-5C43-45DF-8476-DCE8F6E25BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1307A3CD-5C43-45DF-8476-DCE8F6E25BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999F701C-61EF-40F6-BDB8-48DB4E02CD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999F701C-61EF-40F6-BDB8-48DB4E02CD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999F701C-61EF-40F6-BDB8-48DB4E02CD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999F701C-61EF-40F6-BDB8-48DB4E02CD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99BDDF1D-D382-465A-B0EF-E99EE6FA18DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BDDF1D-D382-465A-B0EF-E99EE6FA18DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BDDF1D-D382-465A-B0EF-E99EE6FA18DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BDDF1D-D382-465A-B0EF-E99EE6FA18DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA640D8C-3E41-4429-940B-33F9E7EA1A16}
+	EndGlobalSection
+EndGlobal
